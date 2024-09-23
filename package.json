@@ -1,0 +1,13 @@
+{
+  "homepage": "https://Davi4Deng.github.io/simple_resume",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+"scripts": {
+  "predeploy": "",
+  "deploy": "gh-pages -d ."
+},
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  }
+}

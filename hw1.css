@@ -1,0 +1,181 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.title {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.yellow-line {
+    border: none;
+    height: 4px;
+    background-color: #f4b400;
+    margin-top: 10px;
+}
+
+.section-line {
+    border: none;
+    height: 2px;
+    background-color: #ccc; 
+    margin-top: 10px;
+}
+
+section h2 {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+
+.profile-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.profile-row h2 {
+    font-weight: bold;
+    font-style: italic;
+    width: 25%; 
+    margin-right: 20px;
+}
+
+.profile-details {
+    width: 75%; 
+}
+
+.profile-details p {
+    margin-bottom: 20px;
+}
+
+
+.experience-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.experience-row h2 {
+    font-weight: bold;
+    font-style: italic;
+    width: 25%;
+    margin-right: 20px;
+}
+
+.work-details {
+    width: 75%; 
+}
+
+.work-details h3 {
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.work-details p {
+    margin-bottom: 20px;
+}
+
+
+.skills-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.skills-row h2 {
+    font-weight: bold;
+    font-style: italic;
+    width: 25%; 
+    margin-right: 20px;
+}
+
+.skills-details {
+    width: 75%;
+}
+
+.skills-details ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.skills-details ul li {
+    background: none;
+    margin: 2px 0;
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+.education-row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.education-row h2 {
+    font-weight: bold;
+    font-style: italic;
+    width: 25%; 
+    margin-right: 20px; 
+}
+
+.education-details {
+    width: 75%; 
+}
+
+.education-details h3 {
+    margin: 5px 0; 
+    font-weight: bold;
+}
+
+.education-details p {
+    margin: 2px 0; 
+}
